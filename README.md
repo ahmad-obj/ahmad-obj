@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img src="./assets/header-light.svg" width="100%" alt="Muhammad Ahmad — Computer Science and Software Development">
-</picture>
+<h1 align="center">Muhammad Ahmad</h1>
 
 <p align="center">
   <a href="https://ahmad-portfolio.manbtd1.workers.dev/">Portfolio</a>
