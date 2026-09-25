@@ -1,7 +1,10 @@
-<h1 align="center">Muhammad Ahmad</h1>
+<p align="center">
+  <img src="./assets/geometric-system.svg" width="100%" alt="Muhammad Ahmad — geometric systems">
+</p>
 
 <p align="center">
-  Computer Science at FAST-NUCES · Building reliable software with Python and C++
+  <strong>Computer Science @ FAST-NUCES</strong><br>
+  Systems, interactive graphics, AI, automation, and software that survives past the demo.
 </p>
 
 <p align="center">
@@ -14,51 +17,47 @@
 
 <br>
 
-I build around **AI systems, automation, computer vision, and software design**. I care about architecture, edge cases, and getting ambitious ideas to work beyond the demo.
-
-## Pick a direction
+## Selected systems
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <sub>01 / SYSTEMS</sub><br><br>
-      <strong><a href="https://github.com/ahmad-obj/multimodel-orchestration">Multimodel Orchestration →</a></strong><br>
-      <sub>Coordinating AI coding workers through shared state, task routing, persistence, and verification.</sub><br><br>
-      <code>Python</code> <code>LangGraph</code> <code>SQLite</code>
+      <sub>01 / INTERACTIVE GRAPHICS</sub><br><br>
+      <strong><a href="https://github.com/ahmad-obj/3dcarweb">3D Automotive Experience ↗</a></strong><br>
+      <sub>A cinematic WebGL automotive experience built around real-time 3D, motion, lighting, materials, and camera choreography.</sub><br><br>
+      <code>Next.js</code> <code>Three.js</code> <code>R3F</code>
     </td>
     <td width="50%" valign="top">
-      <sub>02 / APPLIED AI</sub><br><br>
-      <strong><a href="https://github.com/ahmad-obj/AI-digit-recognizer">AI Digit Recognizer →</a></strong><br>
-      <sub>Interactive handwritten-digit recognition with confidence scores and network visualization.</sub><br><br>
-      <code>Python</code> <code>PyTorch</code> <code>Pygame</code>
+      <sub>02 / AGENT SYSTEMS</sub><br><br>
+      <strong><a href="https://github.com/ahmad-obj/multimodel-orchestration">Multimodel Orchestration ↗</a></strong><br>
+      <sub>Coordinating AI coding workers through shared state, task routing, persistence, and verification.</sub><br><br>
+      <code>Python</code> <code>LangGraph</code> <code>SQLite</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <sub>03 / AUTOMATION</sub><br><br>
-      <strong><a href="https://github.com/ahmad-obj/scout-email">Scout Email →</a></strong><br>
-      <sub>A structured pipeline for prospect discovery and personalized outreach workflows.</sub><br><br>
-      <code>Python</code> <code>Browser automation</code> <code>LLM workflows</code>
+      <sub>03 / APPLIED AI</sub><br><br>
+      <strong><a href="https://github.com/ahmad-obj/AI-digit-recognizer">AI Digit Recognizer ↗</a></strong><br>
+      <sub>Interactive handwritten-digit recognition with confidence scores and network visualization.</sub><br><br>
+      <code>Python</code> <code>PyTorch</code> <code>Pygame</code>
     </td>
     <td width="50%" valign="top">
-      <sub>04 / C++</sub><br><br>
-      <strong><a href="https://github.com/ahmad-obj/Chess">Sixty-Four →</a></strong><br>
-      <sub>A customizable chess game with Stockfish, variants, clocks, save/load, and a Windows build.</sub><br><br>
+      <sub>04 / SOFTWARE SYSTEMS</sub><br><br>
+      <strong><a href="https://github.com/ahmad-obj/Chess">Sixty-Four ↗</a></strong><br>
+      <sub>A customizable chess system with Stockfish, variants, clocks, persistence, and a Windows build.</sub><br><br>
       <code>C++17</code> <code>SFML</code> <code>Stockfish</code>
     </td>
   </tr>
 </table>
 
-## Also building
+## In the lab
 
-**[WEBERAISE](https://github.com/ahmad-obj/Weberaise)** — a motion-led agency website with custom WebGL experiences and carefully designed responsive interactions.
+**[WEBERAISE ↗](https://github.com/ahmad-obj/Weberaise)** — motion-led web work, custom interaction, and WebGL experiments.  
+**[Scout Email ↗](https://github.com/ahmad-obj/scout-email)** — structured prospect discovery and personalized outreach automation.
 
-## Toolbox
+## Working surface
 
-**Core** — Python, C++  
-**AI & vision** — PyTorch, OpenCV, LLM APIs  
-**Systems & automation** — LangGraph, n8n, SQLite, Docker  
-**Web & delivery** — React, Next.js, WordPress, Git
+`Python` · `C++` · `TypeScript` · `React` · `Next.js` · `Three.js` · `PyTorch` · `OpenCV` · `LangGraph` · `SQLite` · `Docker`
 
 <br>
 
