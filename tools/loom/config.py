@@ -22,3 +22,10 @@ class LoomConfig:
     resident_max: int = 10
     major_max: int = 18
     signature_limit: int = 3
+    delivery_width: int = 800
+    delivery_height: int = 287
+    webp_fps: int = 15
+    gif_fps: int = 6
+    gif_width: int = 720
+    gif_height: int = 258
+    webp_quality: int = 68
