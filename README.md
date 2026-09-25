@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/geometric-system.svg" width="100%" alt="Muhammad Ahmad — procedural emergence system">
+  <img src="./assets/loom.gif" width="100%" alt="Muhammad Ahmad — The Loom">
 </p>
 
 <p align="center">
