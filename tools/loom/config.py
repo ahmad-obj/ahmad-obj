@@ -28,4 +28,4 @@ class LoomConfig:
     gif_fps: int = 6
     gif_width: int = 720
     gif_height: int = 258
-    webp_quality: int = 68
+    webp_quality: int = 60
