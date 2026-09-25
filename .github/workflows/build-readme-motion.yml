@@ -40,6 +40,9 @@ jobs:
 
       - name: Commit generated motion
         run: |
+          git stash push -u -m readme-motion -- assets/motion/ascii-interference.gif assets/motion/selected-work.gif
+          git pull --rebase origin feature/editorial-readme-v2
+          git stash pop
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/motion/ascii-interference.gif assets/motion/selected-work.gif
