@@ -1,0 +1,51 @@
+name: Build README Motion
+
+on:
+  push:
+    branches: [feature/editorial-readme-v2]
+    paths:
+      - "tools/readme_motion/**"
+      - "tests/test_readme_lean.py"
+      - "README.md"
+      - ".github/workflows/build-readme-motion.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/editorial-readme-v2
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install renderer dependencies
+        run: |
+          python -m pip install Pillow
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core fonts-liberation2
+
+      - name: Render motion
+        run: python tools/readme_motion/generate.py
+
+      - name: Verify
+        run: python -m unittest tests.test_readme_lean -v
+
+      - name: Commit generated motion
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/motion/ascii-interference.gif assets/motion/selected-work.gif
+          if git diff --cached --quiet; then
+            echo "Motion already current."
+          else
+            git commit -m "build: generate README motion assets [skip ci]"
+            git push origin HEAD:feature/editorial-readme-v2
+          fi
