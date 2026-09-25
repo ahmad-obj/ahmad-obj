@@ -1,13 +1,10 @@
 <p align="center">
-  <img src="./assets/geometric-system.svg" width="100%" alt="Muhammad Ahmad — procedural emergence system">
+  <img src="./assets/editorial/00-cover.svg" width="100%" alt="Ahmad — editorial profile cover">
 </p>
 
 <p align="center">
-  <strong>Computer Science @ FAST-NUCES</strong><br>
-  I like systems where simple rules compound into complex behavior — across software, AI, graphics, and automation.
-</p>
-
-<p align="center">
+  <strong>Muhammad Ahmad</strong><br>
+  Computer Science @ FAST-NUCES<br><br>
   <a href="https://ahmad-portfolio.manbtd1.workers.dev/">Portfolio</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/muhammad-ahmad-3a8564383/">LinkedIn</a>
@@ -17,48 +14,52 @@
 
 <br>
 
-## Selected systems
+<a href="https://github.com/ahmad-obj/3dcarweb">
+  <img src="./assets/editorial/01-automotive.svg" width="100%" alt="3D Automotive Experience">
+</a>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>01 / INTERACTIVE GRAPHICS</sub><br><br>
-      <strong><a href="https://github.com/ahmad-obj/3dcarweb">3D Automotive Experience ↗</a></strong><br>
-      <sub>A cinematic WebGL automotive experience built around real-time 3D, motion, lighting, materials, and camera choreography.</sub><br><br>
-      <code>Next.js</code> <code>Three.js</code> <code>R3F</code>
-    </td>
-    <td width="50%" valign="top">
-      <sub>02 / AGENT SYSTEMS</sub><br><br>
-      <strong><a href="https://github.com/ahmad-obj/multimodel-orchestration">Multimodel Orchestration ↗</a></strong><br>
-      <sub>Coordinating AI coding workers through shared state, task routing, persistence, and verification.</sub><br><br>
-      <code>Python</code> <code>LangGraph</code> <code>SQLite</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>03 / APPLIED AI</sub><br><br>
-      <strong><a href="https://github.com/ahmad-obj/AI-digit-recognizer">AI Digit Recognizer ↗</a></strong><br>
-      <sub>Interactive handwritten-digit recognition with confidence scores and network visualization.</sub><br><br>
-      <code>Python</code> <code>PyTorch</code> <code>Pygame</code>
-    </td>
-    <td width="50%" valign="top">
-      <sub>04 / SOFTWARE SYSTEMS</sub><br><br>
-      <strong><a href="https://github.com/ahmad-obj/Chess">Sixty-Four ↗</a></strong><br>
-      <sub>A customizable chess system with Stockfish, variants, clocks, persistence, and a Windows build.</sub><br><br>
-      <code>C++17</code> <code>SFML</code> <code>Stockfish</code>
-    </td>
-  </tr>
-</table>
-
-## In the lab
-
-**[WEBERAISE ↗](https://github.com/ahmad-obj/Weberaise)** — motion-led web work, custom interaction, and WebGL experiments.  
-**[Scout Email ↗](https://github.com/ahmad-obj/scout-email)** — structured prospect discovery and personalized outreach automation.
-
-## Working surface
-
-`Python` · `C++` · `TypeScript` · `React` · `Next.js` · `Three.js` · `PyTorch` · `OpenCV` · `LangGraph` · `SQLite` · `Docker`
+<a href="https://github.com/ahmad-obj/3dcarweb">
+  <img src="https://raw.githubusercontent.com/ahmad-obj/3dcarweb/gemini-version/artifacts/audit-reality/03-hero.png" width="100%" alt="Porsche 992 GT3 R scene from the 3D Automotive Experience">
+</a>
 
 <br>
 
-<p align="center"><sub>build → break → understand → rebuild</sub></p>
+<a href="https://github.com/ahmad-obj/multimodel-orchestration">
+  <img src="./assets/editorial/02-orchestration.svg" width="100%" alt="Multimodel Orchestration">
+</a>
+
+<br>
+
+<a href="https://github.com/ahmad-obj/AI-digit-recognizer">
+  <img src="./assets/editorial/03-digit.svg" width="100%" alt="AI Digit Recognizer">
+</a>
+
+<br>
+
+<img src="./assets/editorial/04-secondary.svg" width="100%" alt="More work: Sixty-Four, WEBERAISE, and Scout Email">
+
+<p align="center">
+  <a href="https://github.com/ahmad-obj/Chess">Sixty-Four</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/ahmad-obj/Weberaise">WEBERAISE</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/ahmad-obj/scout-email">Scout Email</a>
+</p>
+
+<br>
+
+<img src="./assets/editorial/05-stack.svg" width="100%" alt="Tools and technology stack">
+
+<br>
+
+<img src="./assets/editorial/06-end.svg" width="100%" alt="Muhammad Ahmad contact mark">
+
+<p align="center">
+  <a href="https://ahmad-portfolio.manbtd1.workers.dev/">Portfolio</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/muhammad-ahmad-3a8564383/">LinkedIn</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:manbtd1@gmail.com">Email</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/ahmad-obj">GitHub</a>
+</p>
