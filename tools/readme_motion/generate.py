@@ -1,3 +1,4 @@
+# GitHub README motion renderer
 from __future__ import annotations
 
 from pathlib import Path
