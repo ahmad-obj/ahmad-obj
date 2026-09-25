@@ -1,0 +1,80 @@
+name: Optimize The Loom
+
+on:
+  push:
+    branches:
+      - feature/the-loom-v1
+    paths:
+      - "tools/loom/**"
+      - "tests/test_loom_*.py"
+      - ".github/workflows/optimize-loom.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  optimize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/the-loom-v1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r tools/loom/requirements.txt
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -p "test_loom_*.py" -v
+
+      - name: Render optimized delivery assets
+        run: python -m tools.loom --webp assets/loom.webp --gif assets/loom.gif --poster assets/loom-poster.png
+
+      - name: Verify delivery assets
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          import hashlib
+
+          webp = Path("assets/loom.webp")
+          gif = Path("assets/loom.gif")
+
+          with Image.open(webp) as image:
+              assert image.size == (800, 287)
+              assert image.n_frames == 270
+              assert image.info.get("loop") == 0
+
+          with Image.open(gif) as image:
+              assert image.size == (720, 258)
+              assert image.n_frames == 108
+              assert image.info.get("loop") == 0
+
+          assert webp.stat().st_size <= 5 * 1024 * 1024
+          assert gif.stat().st_size <= 5 * 1024 * 1024
+
+          print("webp", webp.stat().st_size, hashlib.sha256(webp.read_bytes()).hexdigest())
+          print("gif", gif.stat().st_size, hashlib.sha256(gif.read_bytes()).hexdigest())
+          PY
+
+      - name: Commit optimized assets
+        run: |
+          git pull --rebase origin feature/the-loom-v1
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/loom.webp assets/loom.gif assets/loom-poster.png
+          if git diff --cached --quiet; then
+            echo "Assets already current."
+          else
+            git commit -m "build: optimize The Loom delivery assets [skip ci]"
+            git push origin HEAD:feature/the-loom-v1
+          fi
