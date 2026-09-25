@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./assets/geometric-system.svg" width="100%" alt="Muhammad Ahmad — geometric systems">
+  <img src="./assets/geometric-system.svg" width="100%" alt="Muhammad Ahmad — procedural emergence system">
 </p>
 
 <p align="center">
   <strong>Computer Science @ FAST-NUCES</strong><br>
-  Systems, interactive graphics, AI, automation, and software that survives past the demo.
+  I like systems where simple rules compound into complex behavior — across software, AI, graphics, and automation.
 </p>
 
 <p align="center">
