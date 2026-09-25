@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<title>Multimodel Orchestration — selected work</title>
+<rect width="1200" height="560" fill="#0B0B0A"/>
+<!-- composition-route -->
+<text x="72" y="118" fill="#F1EEE7" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" text-anchor="start" letter-spacing="0" opacity="1">MULTIMODEL</text>
+<text x="72" y="202" fill="#F1EEE7" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" text-anchor="start" letter-spacing="0" opacity="1">ORCHESTRATION</text>
+<text x="74" y="252" fill="#9B9993" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" text-anchor="start" letter-spacing="0.7" opacity="1">AI CODING WORKERS · SHARED STATE · ROUTING · RECOVERY · VERIFICATION</text>
+<line x1="74" y1="294" x2="1126" y2="294" stroke="#343432" stroke-width="1" opacity="1"/>
+<text x="88" y="352" fill="#9B9993" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start" letter-spacing="1.5" opacity="1">REQUEST</text>
+<text x="286" y="352" fill="#F1EEE7" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start" letter-spacing="1.5" opacity="1">PLAN JOB</text>
+<text x="492" y="352" fill="#F1EEE7" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start" letter-spacing="1.5" opacity="1">ROUTE</text>
+<text x="666" y="352" fill="#F1EEE7" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start" letter-spacing="1.5" opacity="1">EXECUTE</text>
+<text x="884" y="352" fill="#F04A2A" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" text-anchor="start" letter-spacing="1.5" opacity="1">VERIFY</text>
+<line x1="158" y1="345" x2="260" y2="345" stroke="#F1EEE7" stroke-width="2" opacity="1"/>
+<line x1="372" y1="345" x2="470" y2="345" stroke="#F1EEE7" stroke-width="2" opacity="1"/>
+<line x1="550" y1="345" x2="644" y2="345" stroke="#F1EEE7" stroke-width="2" opacity="1"/>
+<line x1="760" y1="345" x2="860" y2="345" stroke="#F1EEE7" stroke-width="2" opacity="1"/>
+<rect x="72" y="402" width="468" height="88" fill="none" stroke="#343432"/>
+<text x="92" y="438" fill="#9B9993" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" text-anchor="start" letter-spacing="0" opacity="1">PYTHON 3.12+</text>
+<text x="92" y="470" fill="#F1EEE7" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1">LANGGRAPH · SQLITE · TYPER · PYDANTIC</text>
+<rect x="568" y="402" width="558" height="88" fill="#F1EEE7"/>
+<text x="590" y="438" fill="#0B0B0A" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" text-anchor="start" letter-spacing="0" opacity="1">LOCAL-FIRST / VENDOR-NEUTRAL</text>
+<text x="590" y="470" fill="#0B0B0A" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" text-anchor="start" letter-spacing="0" opacity="1">COORDINATION LAYER, NOT ANOTHER CHAT WRAPPER</text>
+</svg>

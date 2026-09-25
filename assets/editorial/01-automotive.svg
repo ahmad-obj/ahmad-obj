@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<title>3D AUTOMOTIVE EXPERIENCE — selected work</title>
+<rect width="1200" height="520" fill="#0B0B0A"/>
+<!-- composition-diagonal -->
+<polygon points="780,0 1200,0 1200,520 1020,520" fill="#F1EEE7"/>
+<polygon points="1030,0 1200,0 1200,140 1102,140" fill="#F04A2A"/>
+<text x="74" y="120" fill="#F1EEE7" font-family="Arial, Helvetica, sans-serif" font-size="102" font-weight="800" text-anchor="start" letter-spacing="0" opacity="1">3D</text>
+<text x="74" y="218" fill="#F1EEE7" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="800" text-anchor="start" letter-spacing="0" opacity="1">AUTOMOTIVE</text>
+<text x="74" y="296" fill="#F1EEE7" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="800" text-anchor="start" letter-spacing="0" opacity="1">EXPERIENCE</text>
+<text x="78" y="367" fill="#9B9993" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" text-anchor="start" letter-spacing="0.8" opacity="1">CINEMATIC REAL-TIME WEBGL · CAMERA · LIGHT · MATERIAL · MOTION</text>
+<line x1="78" y1="404" x2="672" y2="404" stroke="#343432" stroke-width="1" opacity="1"/>
+<text x="78" y="448" fill="#F1EEE7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" text-anchor="start" letter-spacing="1" opacity="1">NEXT.JS  ·  THREE.JS  ·  R3F  ·  WEBGL</text>
+<text x="1050" y="430" fill="#0B0B0A" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="800" text-anchor="middle" letter-spacing="0" opacity="1">01</text>
+</svg>
