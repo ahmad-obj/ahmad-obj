@@ -14,45 +14,41 @@
 
 <br>
 
-<a href="https://github.com/ahmad-obj/3dcarweb">
-  <img src="./assets/editorial/01-automotive.svg" width="100%" alt="3D Automotive Experience">
-</a>
-
-<a href="https://github.com/ahmad-obj/3dcarweb">
-  <img src="https://raw.githubusercontent.com/ahmad-obj/3dcarweb/gemini-version/artifacts/audit-reality/03-hero.png" width="100%" alt="Porsche 992 GT3 R scene from the 3D Automotive Experience">
-</a>
-
-<br>
-
-<a href="https://github.com/ahmad-obj/multimodel-orchestration">
-  <img src="./assets/editorial/02-orchestration.svg" width="100%" alt="Multimodel Orchestration">
-</a>
-
-<br>
-
-<a href="https://github.com/ahmad-obj/AI-digit-recognizer">
-  <img src="./assets/editorial/03-digit.svg" width="100%" alt="AI Digit Recognizer">
-</a>
-
-<br>
-
-<img src="./assets/editorial/04-secondary.svg" width="100%" alt="More work: Sixty-Four, WEBERAISE, and Scout Email">
-
 <p align="center">
-  <a href="https://github.com/ahmad-obj/Chess">Sixty-Four</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/ahmad-obj/Weberaise">WEBERAISE</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/ahmad-obj/scout-email">Scout Email</a>
+  <img src="./assets/motion/ascii-interference.gif" width="100%" alt="Abstract ASCII interference study">
 </p>
 
-<br>
+<p align="center">
+  <img src="./assets/motion/selected-work.gif" width="100%" alt="Selected Work">
+</p>
 
-<img src="./assets/editorial/05-stack.svg" width="100%" alt="Tools and technology stack">
+### [3D Automotive Experience ↗](https://github.com/ahmad-obj/3dcarweb)
+Cinematic real-time automotive experience focused on WebGL, authored camera movement, lighting, materials, and motion.  
+`Next.js` · `Three.js` · `React Three Fiber` · `WebGL`
 
-<br>
+---
 
-<img src="./assets/editorial/06-end.svg" width="100%" alt="Muhammad Ahmad contact mark">
+### [Multimodel Orchestration ↗](https://github.com/ahmad-obj/multimodel-orchestration)
+Local-first control layer for coordinating coding agents through shared state, routing, recovery, persistence, and verification.  
+`Python` · `LangGraph` · `SQLite` · `Pydantic`
+
+---
+
+### [AI Digit Recognizer ↗](https://github.com/ahmad-obj/AI-digit-recognizer)
+Interactive handwritten-digit recognition with confidence feedback and optional network visualization.  
+`Python` · `PyTorch` · `Pygame`
+
+---
+
+### Other work
+
+**[Sixty-Four ↗](https://github.com/ahmad-obj/Chess)** — customizable chess system with Stockfish, variants, clocks, persistence, and a Windows build.  
+**[WEBERAISE ↗](https://github.com/ahmad-obj/Weberaise)** — motion-led web work, custom interaction, and WebGL experiments.  
+**[Scout Email ↗](https://github.com/ahmad-obj/scout-email)** — structured prospect discovery and personalized outreach automation.
+
+### Tools
+
+`Python` · `C++` · `TypeScript` · `React` · `Next.js` · `Three.js` · `WebGL` · `PyTorch` · `OpenCV` · `LangGraph` · `SQLite` · `Linux`
 
 <p align="center">
   <a href="https://ahmad-portfolio.manbtd1.workers.dev/">Portfolio</a>
