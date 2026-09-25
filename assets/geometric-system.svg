@@ -1,33 +1,174 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460">
 <defs>
-  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#04070c"/><stop offset=".5" stop-color="#070b12"/><stop offset="1" stop-color="#03060a"/></linearGradient>
-  <radialGradient id="coreGlow"><stop offset="0" stop-color="#d9f5ff" stop-opacity=".95"/><stop offset=".18" stop-color="#7ad0ff" stop-opacity=".55"/><stop offset=".55" stop-color="#3979ff" stop-opacity=".14"/><stop offset="1" stop-color="#3979ff" stop-opacity="0"/></radialGradient>
-  <linearGradient id="wire" x1="0" x2="1"><stop offset="0" stop-color="#6ea8ff" stop-opacity=".28"/><stop offset=".5" stop-color="#dbf5ff" stop-opacity=".95"/><stop offset="1" stop-color="#6ea8ff" stop-opacity=".28"/></linearGradient>
-  <filter id="blur12" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="12"/></filter>
-  <filter id="blur4" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
-  <clipPath id="floor"><polygon points="86,442 1114,442 807,258 393,258"/></clipPath>
-  <g id="cube" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round"><path d="M-26,-18 L0,-32 L26,-18 L0,-4 Z"/><path d="M-26,-18 L-26,15 L0,30 L0,-4 Z"/><path d="M26,-18 L26,15 L0,30 L0,-4 Z"/><path d="M-26,15 L0,0 L26,15"/><circle cx="0" cy="-32" r="2.3" fill="currentColor" stroke="none"/><circle cx="-26" cy="-18" r="2.1" fill="currentColor" stroke="none"/><circle cx="26" cy="-18" r="2.1" fill="currentColor" stroke="none"/><circle cx="0" cy="30" r="2.1" fill="currentColor" stroke="none"/></g>
-  <g id="tetra" fill="none" stroke="currentColor" stroke-width="1.35"><path d="M0,-31 L-29,20 L30,18 Z"/><path d="M0,-31 L1,3 L-29,20 M1,3 L30,18"/><circle cx="0" cy="-31" r="2.2" fill="currentColor" stroke="none"/><circle cx="-29" cy="20" r="2.2" fill="currentColor" stroke="none"/><circle cx="30" cy="18" r="2.2" fill="currentColor" stroke="none"/><circle cx="1" cy="3" r="2.2" fill="currentColor" stroke="none"/></g>
-  <g id="diamond" fill="none" stroke="currentColor" stroke-width="1.35"><path d="M0,-34 L28,0 L0,34 L-28,0 Z"/><path d="M0,-34 L0,10 L28,0 M0,10 L0,34 M0,10 L-28,0"/><path d="M-28,0 L0,-11 L28,0"/></g>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#04070c"/>
+    <stop offset=".5" stop-color="#070b12"/>
+    <stop offset="1" stop-color="#03060a"/>
+  </linearGradient>
+  <radialGradient id="coreGlow">
+    <stop offset="0" stop-color="#d9f5ff" stop-opacity=".95"/>
+    <stop offset=".18" stop-color="#7ad0ff" stop-opacity=".55"/>
+    <stop offset=".55" stop-color="#3979ff" stop-opacity=".14"/>
+    <stop offset="1" stop-color="#3979ff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="wire" x1="0" x2="1">
+    <stop offset="0" stop-color="#6ea8ff" stop-opacity=".28"/>
+    <stop offset=".5" stop-color="#dbf5ff" stop-opacity=".95"/>
+    <stop offset="1" stop-color="#6ea8ff" stop-opacity=".28"/>
+  </linearGradient>
+  <filter id="blur12" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="12"/>
+  </filter>
+  <filter id="blur4" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="4"/>
+  </filter>
+  <clipPath id="floor">
+    <polygon points="86,442 1114,442 807,258 393,258"/>
+  </clipPath>
+  <g id="cube" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round">
+    <path d="M-26,-18 L0,-32 L26,-18 L0,-4 Z"/>
+    <path d="M-26,-18 L-26,15 L0,30 L0,-4 Z"/>
+    <path d="M26,-18 L26,15 L0,30 L0,-4 Z"/>
+    <path d="M-26,15 L0,0 L26,15"/>
+    <circle cx="0" cy="-32" r="2.3" fill="currentColor" stroke="none"/>
+    <circle cx="-26" cy="-18" r="2.1" fill="currentColor" stroke="none"/>
+    <circle cx="26" cy="-18" r="2.1" fill="currentColor" stroke="none"/>
+    <circle cx="0" cy="30" r="2.1" fill="currentColor" stroke="none"/>
+  </g>
+  <g id="tetra" fill="none" stroke="currentColor" stroke-width="1.35">
+    <path d="M0,-31 L-29,20 L30,18 Z"/>
+    <path d="M0,-31 L1,3 L-29,20 M1,3 L30,18"/>
+    <circle cx="0" cy="-31" r="2.2" fill="currentColor" stroke="none"/>
+    <circle cx="-29" cy="20" r="2.2" fill="currentColor" stroke="none"/>
+    <circle cx="30" cy="18" r="2.2" fill="currentColor" stroke="none"/>
+    <circle cx="1" cy="3" r="2.2" fill="currentColor" stroke="none"/>
+  </g>
+  <g id="diamond" fill="none" stroke="currentColor" stroke-width="1.35">
+    <path d="M0,-34 L28,0 L0,34 L-28,0 Z"/>
+    <path d="M0,-34 L0,10 L28,0 M0,10 L0,34 M0,10 L-28,0"/>
+    <path d="M-28,0 L0,-11 L28,0"/>
+  </g>
 </defs>
 <style>
-  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;letter-spacing:2.4px}.sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-  @keyframes dash{to{stroke-dashoffset:-160}}@keyframes dashReverse{to{stroke-dashoffset:170}}.dash{animation:dash 4s linear infinite}.dashr{animation:dashReverse 6s linear infinite}
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; letter-spacing: 2.4px; }
+  .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  @keyframes dash { to { stroke-dashoffset: -160; } }
+  @keyframes dashReverse { to { stroke-dashoffset: 170; } }
+  .dash { animation: dash 4s linear infinite; }
+  .dashr { animation: dashReverse 6s linear infinite; }
 </style>
-<rect width="1200" height="460" rx="24" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="458" rx="23" fill="none" stroke="#d7f1ff" stroke-opacity=".05"/>
-<ellipse cx="600" cy="226" rx="310" ry="165" fill="#3578ff" opacity=".035" filter="url(#blur12)"/><circle cx="600" cy="223" r="100" fill="url(#coreGlow)" opacity=".18"/>
-<g class="mono" font-size="10" fill="#8da6bb"><text x="40" y="34">AHMAD / COMPUTATIONAL GEOMETRY</text><text x="1160" y="34" text-anchor="end">SYSTEM 02 / ACTIVE</text></g><path d="M40 48 H242" stroke="#a6dcff" stroke-opacity=".24"/><path d="M958 48 H1160" stroke="#a6dcff" stroke-opacity=".14"/>
-<g clip-path="url(#floor)" opacity=".44"><g stroke="#6fa7d6" stroke-opacity=".15"><path d="M600,258 L86,442 M600,258 L160,442 M600,258 L234,442 M600,258 L308,442 M600,258 L382,442 M600,258 L456,442 M600,258 L530,442 M600,258 L600,442 M600,258 L670,442 M600,258 L744,442 M600,258 L818,442 M600,258 L892,442 M600,258 L966,442 M600,258 L1040,442 M600,258 L1114,442"/><path d="M357 278 H843 M315 297 H885 M271 318 H929 M225 341 H975 M177 366 H1023 M127 393 H1073 M86 422 H1114"/></g><g stroke="#8bcfff" stroke-opacity=".13" stroke-dasharray="5 18" class="dash"><path d="M86 422 H1114"/><path d="M127 393 H1073"/></g></g>
+
+<rect width="1200" height="460" rx="24" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="458" rx="23" fill="none" stroke="#d7f1ff" stroke-opacity=".05"/>
+<ellipse cx="600" cy="226" rx="310" ry="165" fill="#3578ff" opacity=".035" filter="url(#blur12)"/>
+<circle cx="600" cy="223" r="100" fill="url(#coreGlow)" opacity=".18"/>
+
+<g class="mono" font-size="10" fill="#8da6bb">
+  <text x="40" y="34">AHMAD / COMPUTATIONAL GEOMETRY</text>
+  <text x="1160" y="34" text-anchor="end">SYSTEM 02 / ACTIVE</text>
+</g>
+<path d="M40 48 H242" stroke="#a6dcff" stroke-opacity=".24"/>
+<path d="M958 48 H1160" stroke="#a6dcff" stroke-opacity=".14"/>
+
+<g clip-path="url(#floor)" opacity=".44">
+  <g stroke="#6fa7d6" stroke-opacity=".15">
+    <path d="M600,258 L86,442 M600,258 L160,442 M600,258 L234,442 M600,258 L308,442 M600,258 L382,442 M600,258 L456,442 M600,258 L530,442 M600,258 L600,442 M600,258 L670,442 M600,258 L744,442 M600,258 L818,442 M600,258 L892,442 M600,258 L966,442 M600,258 L1040,442 M600,258 L1114,442"/>
+    <path d="M357 278 H843 M315 297 H885 M271 318 H929 M225 341 H975 M177 366 H1023 M127 393 H1073 M86 422 H1114"/>
+  </g>
+  <g stroke="#8bcfff" stroke-opacity=".13" stroke-dasharray="5 18" class="dash">
+    <path d="M86 422 H1114"/><path d="M127 393 H1073"/>
+  </g>
+</g>
 <path d="M393 258 L86 442 H1114 L807 258" fill="none" stroke="#8ecbff" stroke-opacity=".08"/>
-<g fill="none" stroke-linecap="round"><ellipse cx="600" cy="222" rx="328" ry="93" stroke="#7bbdff" stroke-opacity=".14" stroke-dasharray="4 13" class="dash"/><ellipse cx="600" cy="222" rx="258" ry="139" transform="rotate(-28 600 222)" stroke="#9ecfff" stroke-opacity=".12" stroke-dasharray="2 15" class="dashr"/><ellipse cx="600" cy="222" rx="186" ry="163" transform="rotate(51 600 222)" stroke="#6f8fff" stroke-opacity=".11" stroke-dasharray="3 18" class="dash"/></g>
-<g fill="none" stroke-linecap="round"><path d="M280 222 C380 132 465 156 600 222 C735 288 825 308 920 222" stroke="#2e6fff" stroke-opacity=".14" stroke-width="11" filter="url(#blur4)"/><path d="M280 222 C380 132 465 156 600 222 C735 288 825 308 920 222" stroke="url(#wire)" stroke-width="1.2" stroke-dasharray="9 28" class="dash"/><path d="M335 304 C448 285 505 305 600 222 C695 139 764 152 868 168" stroke="#8ad8ff" stroke-opacity=".35" stroke-width="1" stroke-dasharray="2 18" class="dashr"/></g>
-<g transform="translate(600 222)"><circle r="116" fill="none" stroke="#7ac6ff" stroke-opacity=".07"/><circle r="94" fill="none" stroke="#bde7ff" stroke-opacity=".12" stroke-dasharray="3 11"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="20s" repeatCount="indefinite"/></circle><g opacity=".92"><animateTransform attributeName="transform" type="rotate" values="0;-360" dur="16s" repeatCount="indefinite"/><polygon points="0,-91 79,-45 79,45 0,91 -79,45 -79,-45" fill="#0c1521" fill-opacity=".74" stroke="#d9f4ff" stroke-opacity=".52"/><path d="M0,-91 L0,0 L79,-45 M0,0 L79,45 M0,0 L0,91 M0,0 L-79,45 M0,0 L-79,-45" fill="none" stroke="#8fd2ff" stroke-opacity=".56"/><polygon points="0,-63 55,-31 55,31 0,63 -55,31 -55,-31" fill="none" stroke="#6c99ff" stroke-opacity=".37"/><polygon points="0,-91 55,-31 79,45 0,63 -79,45 -55,-31" fill="none" stroke="#9edcff" stroke-opacity=".24"/><circle cx="0" cy="-91" r="3.3" fill="#daf7ff"/><circle cx="79" cy="-45" r="3" fill="#daf7ff"/><circle cx="79" cy="45" r="3" fill="#daf7ff"/><circle cx="0" cy="91" r="3.3" fill="#daf7ff"/><circle cx="-79" cy="45" r="3" fill="#daf7ff"/><circle cx="-79" cy="-45" r="3" fill="#daf7ff"/></g><g opacity=".78"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="10s" repeatCount="indefinite"/><polygon points="0,-67 58,0 0,67 -58,0" fill="none" stroke="#bdeaff" stroke-opacity=".55"/><path d="M0,-67 L0,19 L58,0 M0,19 L0,67 M0,19 L-58,0" fill="none" stroke="#8fc9ff" stroke-opacity=".42"/></g><circle r="28" fill="#0b1622" stroke="#d9f6ff" stroke-opacity=".18"/><circle r="11" fill="#dff8ff" opacity=".82" filter="url(#blur4)"/><circle r="5" fill="#f2fbff"/><circle r="34" fill="none" stroke="#76cfff" stroke-opacity=".21"><animate attributeName="r" values="30;39;30" dur="2.8s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".12;.34;.12" dur="2.8s" repeatCount="indefinite"/></circle></g>
-<g transform="translate(600 222) rotate(-12) scale(1 .34)" color="#c7edff"><g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite"/><g transform="translate(335 0) scale(1 2.94)"><g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="3.3s" repeatCount="indefinite"/><use href="#cube"/></g></g></g></g>
-<g transform="translate(600 222) rotate(42) scale(1 .48)" color="#8fb7ff"><g><animateTransform attributeName="transform" type="rotate" values="110;-250" dur="10.5s" repeatCount="indefinite"/><g transform="translate(286 0) scale(1 2.08)"><g><animateTransform attributeName="transform" type="rotate" values="360;0" dur="2.6s" repeatCount="indefinite"/><use href="#tetra"/></g></g></g></g>
-<g transform="translate(600 222) rotate(-52) scale(1 .60)" color="#c8eaff"><g><animateTransform attributeName="transform" type="rotate" values="205;565" dur="12.8s" repeatCount="indefinite"/><g transform="translate(221 0) scale(1 1.67)"><g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="4.1s" repeatCount="indefinite"/><use href="#diamond"/></g></g></g></g>
-<g transform="translate(600 222) rotate(17) scale(1 .30)" color="#769bff" opacity=".9"><g><animateTransform attributeName="transform" type="rotate" values="275;-85" dur="6.6s" repeatCount="indefinite"/><g transform="translate(194 0) scale(.68 2.26)"><g><animateTransform attributeName="transform" type="rotate" values="0;-360" dur="2.1s" repeatCount="indefinite"/><use href="#cube"/></g></g></g></g>
-<g transform="translate(600 222)" fill="#e4f8ff"><circle r="3.3"><animateMotion dur="3.1s" repeatCount="indefinite" path="M-320 0 C-220 -90 -135 -66 0 0 C135 66 225 86 320 0"/></circle><circle r="2.4" opacity=".75"><animateMotion dur="4.3s" begin="-1.4s" repeatCount="indefinite" path="M320 0 C225 86 135 66 0 0 C-135 -66 -220 -90 -320 0"/></circle><circle r="2.6" fill="#7fb8ff"><animateMotion dur="5s" begin="-2s" repeatCount="indefinite" path="M-265 82 C-152 63 -95 83 0 0 C95 -83 164 -70 268 -54"/></circle></g>
-<g stroke="#7ab9e8" stroke-opacity=".3" fill="#d9f5ff"><path d="M157 205 V248"/><circle cx="157" cy="205" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="2.7s" repeatCount="indefinite"/></circle><path d="M201 182 V242"/><circle cx="201" cy="182" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="3.4s" begin=".8s" repeatCount="indefinite"/></circle><path d="M246 239 V279"/><circle cx="246" cy="239" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="4.1s" begin="1.3s" repeatCount="indefinite"/></circle><path d="M1043 205 V248"/><circle cx="1043" cy="205" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="3.4s" begin=".8s" repeatCount="indefinite"/></circle><path d="M999 182 V242"/><circle cx="999" cy="182" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="2.7s" repeatCount="indefinite"/></circle><path d="M954 239 V279"/><circle cx="954" cy="239" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="4.1s" begin="1.3s" repeatCount="indefinite"/></circle></g>
-<g class="mono" font-size="8.5" fill="#7992a8"><text x="78" y="305">NODES  /  12</text><text x="78" y="319">LINKS  /  18</text><text x="78" y="333">STATE  /  SYNCHRONIZED</text><text x="1122" y="305" text-anchor="end">ROTATION  /  LIVE</text><text x="1122" y="319" text-anchor="end">FLOW  /  ACTIVE</text><text x="1122" y="333" text-anchor="end">DEPTH  /  03</text></g>
-<g transform="translate(600 384)"><rect x="-244" y="-31" width="488" height="61" rx="9" fill="#04070c" fill-opacity=".88" stroke="#d4efff" stroke-opacity=".11"/><text class="sans" x="0" y="-2" text-anchor="middle" font-size="25" font-weight="700" fill="#f2f8fc" letter-spacing="5">MUHAMMAD AHMAD</text><text class="mono" x="0" y="19" text-anchor="middle" font-size="9" fill="#7e9cb5">CODE · SYSTEMS · INTERACTIVE GRAPHICS</text></g>
+
+<g fill="none" stroke-linecap="round">
+  <ellipse cx="600" cy="222" rx="328" ry="93" stroke="#7bbdff" stroke-opacity=".14" stroke-dasharray="4 13" class="dash"/>
+  <ellipse cx="600" cy="222" rx="258" ry="139" transform="rotate(-28 600 222)" stroke="#9ecfff" stroke-opacity=".12" stroke-dasharray="2 15" class="dashr"/>
+  <ellipse cx="600" cy="222" rx="186" ry="163" transform="rotate(51 600 222)" stroke="#6f8fff" stroke-opacity=".11" stroke-dasharray="3 18" class="dash"/>
+</g>
+
+<g fill="none" stroke-linecap="round">
+  <path d="M280 222 C380 132 465 156 600 222 C735 288 825 308 920 222" stroke="#2e6fff" stroke-opacity=".14" stroke-width="11" filter="url(#blur4)"/>
+  <path d="M280 222 C380 132 465 156 600 222 C735 288 825 308 920 222" stroke="url(#wire)" stroke-width="1.2" stroke-dasharray="9 28" class="dash"/>
+  <path d="M335 304 C448 285 505 305 600 222 C695 139 764 152 868 168" stroke="#8ad8ff" stroke-opacity=".35" stroke-width="1" stroke-dasharray="2 18" class="dashr"/>
+</g>
+
+<g transform="translate(600 222)">
+  <circle r="116" fill="none" stroke="#7ac6ff" stroke-opacity=".07"/>
+  <circle r="94" fill="none" stroke="#bde7ff" stroke-opacity=".12" stroke-dasharray="3 11">
+    <animateTransform attributeName="transform" type="rotate" values="0;360" dur="20s" repeatCount="indefinite"/>
+  </circle>
+  <g opacity=".92">
+    <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="16s" repeatCount="indefinite"/>
+    <polygon points="0,-91 79,-45 79,45 0,91 -79,45 -79,-45" fill="#0c1521" fill-opacity=".74" stroke="#d9f4ff" stroke-opacity=".52"/>
+    <path d="M0,-91 L0,0 L79,-45 M0,0 L79,45 M0,0 L0,91 M0,0 L-79,45 M0,0 L-79,-45" fill="none" stroke="#8fd2ff" stroke-opacity=".56"/>
+    <polygon points="0,-63 55,-31 55,31 0,63 -55,31 -55,-31" fill="none" stroke="#6c99ff" stroke-opacity=".37"/>
+    <polygon points="0,-91 55,-31 79,45 0,63 -79,45 -55,-31" fill="none" stroke="#9edcff" stroke-opacity=".24"/>
+    <circle cx="0" cy="-91" r="3.3" fill="#daf7ff"/><circle cx="79" cy="-45" r="3" fill="#daf7ff"/><circle cx="79" cy="45" r="3" fill="#daf7ff"/>
+    <circle cx="0" cy="91" r="3.3" fill="#daf7ff"/><circle cx="-79" cy="45" r="3" fill="#daf7ff"/><circle cx="-79" cy="-45" r="3" fill="#daf7ff"/>
+  </g>
+  <g opacity=".78">
+    <animateTransform attributeName="transform" type="rotate" values="0;360" dur="10s" repeatCount="indefinite"/>
+    <polygon points="0,-67 58,0 0,67 -58,0" fill="none" stroke="#bdeaff" stroke-opacity=".55"/>
+    <path d="M0,-67 L0,19 L58,0 M0,19 L0,67 M0,19 L-58,0" fill="none" stroke="#8fc9ff" stroke-opacity=".42"/>
+  </g>
+  <circle r="28" fill="#0b1622" stroke="#d9f6ff" stroke-opacity=".18"/>
+  <circle r="11" fill="#dff8ff" opacity=".82" filter="url(#blur4)"/>
+  <circle r="5" fill="#f2fbff"/>
+  <circle r="34" fill="none" stroke="#76cfff" stroke-opacity=".21">
+    <animate attributeName="r" values="30;39;30" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values=".12;.34;.12" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<g transform="translate(600 222) rotate(-12) scale(1 .34)" color="#c7edff">
+  <g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite"/>
+    <g transform="translate(335 0) scale(1 2.94)"><g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="3.3s" repeatCount="indefinite"/><use href="#cube"/></g></g>
+  </g>
+</g>
+<g transform="translate(600 222) rotate(42) scale(1 .48)" color="#8fb7ff">
+  <g><animateTransform attributeName="transform" type="rotate" values="110;-250" dur="10.5s" repeatCount="indefinite"/>
+    <g transform="translate(286 0) scale(1 2.08)"><g><animateTransform attributeName="transform" type="rotate" values="360;0" dur="2.6s" repeatCount="indefinite"/><use href="#tetra"/></g></g>
+  </g>
+</g>
+<g transform="translate(600 222) rotate(-52) scale(1 .60)" color="#c8eaff">
+  <g><animateTransform attributeName="transform" type="rotate" values="205;565" dur="12.8s" repeatCount="indefinite"/>
+    <g transform="translate(221 0) scale(1 1.67)"><g><animateTransform attributeName="transform" type="rotate" values="0;360" dur="4.1s" repeatCount="indefinite"/><use href="#diamond"/></g></g>
+  </g>
+</g>
+<g transform="translate(600 222) rotate(17) scale(1 .30)" color="#769bff" opacity=".9">
+  <g><animateTransform attributeName="transform" type="rotate" values="275;-85" dur="6.6s" repeatCount="indefinite"/>
+    <g transform="translate(194 0) scale(.68 2.26)"><g><animateTransform attributeName="transform" type="rotate" values="0;-360" dur="2.1s" repeatCount="indefinite"/><use href="#cube"/></g></g>
+  </g>
+</g>
+
+<g transform="translate(600 222)" fill="#e4f8ff">
+  <circle r="3.3"><animateMotion dur="3.1s" repeatCount="indefinite" path="M-320 0 C-220 -90 -135 -66 0 0 C135 66 225 86 320 0"/></circle>
+  <circle r="2.4" opacity=".75"><animateMotion dur="4.3s" begin="-1.4s" repeatCount="indefinite" path="M320 0 C225 86 135 66 0 0 C-135 -66 -220 -90 -320 0"/></circle>
+  <circle r="2.6" fill="#7fb8ff"><animateMotion dur="5s" begin="-2s" repeatCount="indefinite" path="M-265 82 C-152 63 -95 83 0 0 C95 -83 164 -70 268 -54"/></circle>
+</g>
+
+<g stroke="#7ab9e8" stroke-opacity=".3" fill="#d9f5ff">
+  <path d="M157 205 V248"/><circle cx="157" cy="205" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="2.7s" repeatCount="indefinite"/></circle>
+  <path d="M201 182 V242"/><circle cx="201" cy="182" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="3.4s" begin=".8s" repeatCount="indefinite"/></circle>
+  <path d="M246 239 V279"/><circle cx="246" cy="239" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="4.1s" begin="1.3s" repeatCount="indefinite"/></circle>
+  <path d="M1043 205 V248"/><circle cx="1043" cy="205" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="3.4s" begin=".8s" repeatCount="indefinite"/></circle>
+  <path d="M999 182 V242"/><circle cx="999" cy="182" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="2.7s" repeatCount="indefinite"/></circle>
+  <path d="M954 239 V279"/><circle cx="954" cy="239" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="4.1s" begin="1.3s" repeatCount="indefinite"/></circle>
+</g>
+
+<g class="mono" font-size="8.5" fill="#7992a8">
+  <text x="78" y="305">NODES  /  12</text>
+  <text x="78" y="319">LINKS  /  18</text>
+  <text x="78" y="333">STATE  /  SYNCHRONIZED</text>
+  <text x="1122" y="305" text-anchor="end">ROTATION  /  LIVE</text>
+  <text x="1122" y="319" text-anchor="end">FLOW  /  ACTIVE</text>
+  <text x="1122" y="333" text-anchor="end">DEPTH  /  03</text>
+</g>
+
+<g transform="translate(600 384)">
+  <rect x="-244" y="-31" width="488" height="61" rx="9" fill="#04070c" fill-opacity=".88" stroke="#d4efff" stroke-opacity=".11"/>
+  <text class="sans" x="0" y="-2" text-anchor="middle" font-size="25" font-weight="700" fill="#f2f8fc" letter-spacing="5">MUHAMMAD AHMAD</text>
+  <text class="mono" x="0" y="19" text-anchor="middle" font-size="9" fill="#7e9cb5">CODE · SYSTEMS · INTERACTIVE GRAPHICS</text>
+</g>
 </svg>
