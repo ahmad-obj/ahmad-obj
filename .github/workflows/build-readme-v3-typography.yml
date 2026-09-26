@@ -1,0 +1,45 @@
+name: Build README v3 Typography
+
+on:
+  push:
+    branches: [feature/editorial-readme-v2]
+    paths:
+      - "tools/readme_typography/**"
+      - "tests/test_readme_typography.py"
+      - ".github/workflows/build-readme-v3-typography.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: feature/editorial-readme-v2
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - run: |
+          python -m pip install Pillow
+          sudo apt-get update
+          sudo apt-get install -y fonts-dejavu-core
+      - name: Render typography
+        run: python tools/readme_typography/generate.py
+      - name: Verify typography assets
+        run: |
+          python -m unittest             tests.test_readme_typography.ReadmeTypographyTests.test_current_asset             tests.test_readme_typography.ReadmeTypographyTests.test_academic_asset             tests.test_readme_typography.ReadmeTypographyTests.test_interests_asset             tests.test_readme_typography.ReadmeTypographyTests.test_typography_assets_stay_lightweight -v
+      - name: Commit generated typography
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/typography/current.png assets/typography/academic.png assets/typography/interests.png
+          if git diff --cached --quiet; then
+            echo "Typography assets already current."
+          else
+            git commit -m "build: generate README v3 typography assets [skip ci]"
+            git push origin HEAD:feature/editorial-readme-v2
+          fi
