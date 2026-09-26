@@ -33,8 +33,7 @@ def render_current() -> Image.Image:
 
     layers = [
         (COBALT, -12, 5),
-        (ACID, 9, -5),
-        (CORAL, 5, 5),
+        (CORAL, 9, -5),
         (OFF, 0, 0),
     ]
     base = Image.new("L", (W, h), 0)
@@ -71,12 +70,10 @@ def render_academic() -> Image.Image:
     for depth in range(16, 0, -1):
         dx = -depth * 3
         dy = depth * 2
-        if depth > 11:
+        if depth > 9:
             color = COBALT
-        elif depth > 5:
-            color = CORAL
         else:
-            color = GRAY
+            color = CORAL
         d.text((x + dx, y + dy), text, font=font, fill=color)
 
     d.text((x, y), text, font=font, fill=OFF)
@@ -99,12 +96,10 @@ def render_interests() -> Image.Image:
         (2, -3), (6, -2), (10, 1), (14, 5), (18, 10),
     ]
     for i, (dx, dy) in enumerate(offsets):
-        if i in (1, 8):
-            color = COBALT
-        elif i in (3, 6):
+        if i in (3, 6):
             color = CORAL
         else:
-            color = GRAY
+            color = COBALT
         d.text(
             (x + dx, y + dy),
             text,

@@ -53,7 +53,8 @@ class ReadmeTypographyTests(unittest.TestCase):
             path = TYPO / name
             self.assertTrue(path.exists(), f"missing {path}")
             with Image.open(path).convert("RGB") as im:
-                pixels = set(im.getdata())
+                colors = im.getcolors(maxcolors=1_000_000) or []
+                pixels = {color for _, color in colors}
             used = base_colors.intersection(pixels)
             self.assertLessEqual(len(used), 4, (name, used))
 
