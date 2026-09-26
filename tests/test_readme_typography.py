@@ -49,9 +49,9 @@ class ReadmeTypographyTests(unittest.TestCase):
             "### Academic",
             "./assets/typography/interests.png",
             "### Interests",
-            "./assets/motion/ascii-interference.gif",
             "./assets/motion/selected-work.gif",
             "3D Automotive Experience",
+            "./assets/motion/ascii-interference.gif",
             "### Other work",
             "### Tools",
         ]
