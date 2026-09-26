@@ -1,135 +1,62 @@
-<p align="center">
-  <img src="./assets/editorial/00-cover.svg" width="100%" alt="Ahmad — profile mark">
-</p>
+# Muhammad Ahmad
 
-<p align="center">
-  <strong>Muhammad Ahmad</strong><br>
-  Computer Science @ FAST-NUCES<br><br>
-  <a href="https://ahmad-portfolio.manbtd1.workers.dev/">Portfolio</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/muhammad-ahmad-3a8564383/">LinkedIn</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:manbtd1@gmail.com">Email</a>
-</p>
+Computer Science student at **FAST-NUCES**, interested in real-time graphics, AI systems, developer tooling, interaction design, and systems programming.
 
-<br>
+[Portfolio](https://ahmad-portfolio.manbtd1.workers.dev/) · [LinkedIn](https://www.linkedin.com/in/muhammad-ahmad-3a8564383/) · [Email](mailto:manbtd1@gmail.com)
 
-```text
-CURRENT / FLOW
+## Currently
 
- ████  █  █  ███   ███   ████  █  █  █████
-█      █  █  █  █  █  █  █     ██ █    █
-█      █  █  ███   ███   ███   █ ██    █
-█      █  █  █ █   █ █   █     █  █    █
- ████   ██   █  █  █  █  ████  █  █    █
+- Building real-time WebGL experiences
+- Exploring multi-agent coding systems and orchestration
+- Working on AI, graphics, and developer-tooling projects
 
-░░▒▒▓▓████▓▓▒▒░░            REAL-TIME GRAPHICS
-      ░░▒▒▓▓████▓▓▒▒░░      AGENT ORCHESTRATION
-            ░░▒▒▓▓████▓▓▒▒░░  EXPERIMENTAL INTERFACES
-```
+## Selected projects
 
-`Real-time graphics` · `Agent orchestration` · `Experimental interfaces`
+### [3D Automotive Experience](https://github.com/ahmad-obj/3dcarweb)
 
-<br>
+A cinematic real-time automotive experience focused on camera choreography, lighting, materials, motion, and interaction.
 
-```text
-ACADEMIC / ASCENT
+**Stack:** Next.js, Three.js, React Three Fiber, WebGL
 
-                                            ⣿ FAST-NUCES
-                                      ┌─────┘
-                                ┌─────┘   BS COMPUTER SCIENCE
-                          ┌─────┘
-                    ┌─────┘       DEAN'S LIST ×2
-              ┌─────┘
-        ┌─────┘              1ST · BISE GUJRANWALA
-────────┘
-```
+### [Multimodel Orchestration](https://github.com/ahmad-obj/multimodel-orchestration)
 
-**BS Computer Science — FAST-NUCES**  
-Dean’s List ×2 · 1st position — BISE Gujranwala ICS
+A local-first control layer for coordinating coding agents through planning, routing, isolated execution, persistence, recovery, and verification.
 
-<br>
+**Stack:** Python, LangGraph, SQLite, Pydantic
 
-```text
-INTERESTS / CONSTELLATION
+### [AI Digit Recognizer](https://github.com/ahmad-obj/AI-digit-recognizer)
 
-⠂        ⠄             ⠂                  ⠄
-                       REAL-TIME GRAPHICS
-                              ⠂
-                              │
-AI SYSTEMS  ⠂───────────────╳───────────────⠂  INTERACTION DESIGN
-                             ╱ ╲
-                            ⠂   ⠂
-              DEVELOPER TOOLING   SYSTEMS PROGRAMMING
-        ⠄             ⠂                 ⠄        ⠂
-```
+An interactive handwritten-digit recognizer that converts drawn input into MNIST-style samples and predicts them with a PyTorch model.
 
-`Real-time graphics` · `AI systems` · `Developer tooling` ·
-`Interaction design` · `Systems programming`
+**Stack:** Python, PyTorch, Pygame
 
-<br>
+## Other projects
 
-```text
-░░░▒▒▒▓▓▓██████████████████████████▓▓▓▒▒▒░░░
-                 SELECTED / WORK
-░░░▒▒▒▓▓▓██████████████████████████▓▓▓▒▒▒░░░
-```
+- [Sixty-Four](https://github.com/ahmad-obj/Chess) — C++ chess application with Stockfish integration, variants, clocks, persistence, and customization.
+- [WEBERAISE](https://github.com/ahmad-obj/Weberaise) — web design and development work focused on interaction, motion, and modern frontend experiences.
+- [Scout Email](https://github.com/ahmad-obj/scout-email) — prospect discovery and personalized outreach tooling.
 
-<sub>01 / REAL-TIME GRAPHICS</sub>
+## Education
 
-### [3D Automotive Experience ↗](https://github.com/ahmad-obj/3dcarweb)
+**BS Computer Science — FAST-NUCES**
 
-Cinematic real-time automotive experience focused on WebGL, authored camera movement, lighting, materials, and motion.  
-`Next.js` · `Three.js` · `React Three Fiber` · `WebGL`
+- Dean’s List ×2
+- 1st position, BISE Gujranwala — ICS
 
----
+## Interests
 
-<sub>02 / AGENT SYSTEMS</sub>
+Real-time graphics · AI systems · Developer tooling · Interaction design · Systems programming
 
-### [Multimodel Orchestration ↗](https://github.com/ahmad-obj/multimodel-orchestration)
+## Technologies
 
-Local-first control layer for coordinating coding agents through shared state, routing, recovery, persistence, and verification.  
-`Python` · `LangGraph` · `SQLite` · `Pydantic`
+**Languages:** Python, C++, TypeScript  
+**Web / Graphics:** React, Next.js, Three.js, WebGL  
+**AI / Data:** PyTorch, OpenCV  
+**Systems / Tooling:** LangGraph, SQLite, Linux, Git
 
----
+## Contact
 
-<sub>03 / MACHINE LEARNING</sub>
-
-### [AI Digit Recognizer ↗](https://github.com/ahmad-obj/AI-digit-recognizer)
-
-Interactive handwritten-digit recognition with confidence feedback and optional network visualization.  
-`Python` · `PyTorch` · `Pygame`
-
-<br>
-
-### Other work
-
-**[Sixty-Four ↗](https://github.com/ahmad-obj/Chess)** — customizable chess system with Stockfish, variants, clocks, persistence, and a Windows build.  
-**[WEBERAISE ↗](https://github.com/ahmad-obj/Weberaise)** — motion-led web work, custom interaction, and WebGL experiments.  
-**[Scout Email ↗](https://github.com/ahmad-obj/scout-email)** — structured prospect discovery and personalized outreach automation.
-
-<br>
-
-### Tools
-
-```text
-TOOLS / SYSTEM
-
-PYTHON ───────── C++ ───────── TYPESCRIPT
-   │                           │
-   └──── REACT ── NEXT.JS ── THREE.JS ── WEBGL
-                │
-                └──── PYTORCH ── OPENCV
-                         │
-                         └──── LANGGRAPH ── SQLITE ── LINUX
-```
-
-<p align="center">
-  <a href="https://ahmad-portfolio.manbtd1.workers.dev/">Portfolio</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/muhammad-ahmad-3a8564383/">LinkedIn</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:manbtd1@gmail.com">Email</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/ahmad-obj">GitHub</a>
-</p>
+- [GitHub](https://github.com/ahmad-obj)
+- [LinkedIn](https://www.linkedin.com/in/muhammad-ahmad-3a8564383/)
+- [Portfolio](https://ahmad-portfolio.manbtd1.workers.dev/)
+- [Email](mailto:manbtd1@gmail.com)
