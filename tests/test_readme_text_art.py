@@ -28,7 +28,7 @@ class ReadmeTextArtTests(unittest.TestCase):
             "ACADEMIC / ASCENT",
             "INTERESTS / CONSTELLATION",
             "SELECTED / WORK",
-            "░▒▓",
+            "░░▒▒▓▓",
             "⣿",
             "⠂",
             "REAL-TIME GRAPHICS",
