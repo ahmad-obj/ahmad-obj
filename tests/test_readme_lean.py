@@ -18,6 +18,15 @@ class LeanReadmeTests(unittest.TestCase):
         for gif in ["ascii-interference.gif", "selected-work.gif"]:
             self.assertIn(f"./assets/motion/{gif}", text)
 
+
+    def test_only_name_svg_remains(self):
+        svgs = sorted(
+            path.relative_to(ROOT).as_posix()
+            for path in ROOT.rglob("*.svg")
+            if ".git" not in path.parts
+        )
+        self.assertEqual(svgs, ["assets/editorial/00-cover.svg"])
+
     def test_readme_contains_real_project_text_and_links(self):
         text = (ROOT / "README.md").read_text()
         expected = [
