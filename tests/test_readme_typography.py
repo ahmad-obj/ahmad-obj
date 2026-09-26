@@ -39,6 +39,24 @@ class ReadmeTypographyTests(unittest.TestCase):
             self.assertTrue(path.exists(), f"missing {path}")
         self.assertLess(sum(path.stat().st_size for path in paths), 450_000)
 
+
+    def test_each_typography_asset_uses_at_most_four_base_colors(self):
+        base_colors = {
+            (11, 11, 10),
+            (240, 74, 42),
+            (49, 87, 213),
+            (231, 240, 74),
+            (241, 238, 231),
+            (155, 153, 147),
+        }
+        for name in self.ASSETS:
+            path = TYPO / name
+            self.assertTrue(path.exists(), f"missing {path}")
+            with Image.open(path).convert("RGB") as im:
+                pixels = set(im.getdata())
+            used = base_colors.intersection(pixels)
+            self.assertLessEqual(len(used), 4, (name, used))
+
     def test_readme_v3_structure_and_fallback_text(self):
         text = (ROOT / "README.md").read_text()
         tokens = [
