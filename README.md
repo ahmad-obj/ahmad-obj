@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/editorial/00-cover.svg" width="100%" alt="Ahmad — editorial profile cover">
+  <img src="./assets/editorial/00-cover.svg" width="100%" alt="Ahmad — profile mark">
 </p>
 
 <p align="center">
@@ -14,40 +14,66 @@
 
 <br>
 
-<p align="center">
-  <img src="./assets/typography/current.png" width="100%" alt="Current">
-</p>
+```text
+CURRENT / FLOW
 
-### Current
+ ████  █  █  ███   ███   ████  █  █  █████
+█      █  █  █  █  █  █  █     ██ █    █
+█      █  █  ███   ███   ███   █ ██    █
+█      █  █  █ █   █ █   █     █  █    █
+ ████   ██   █  █  █  █  ████  █  █    █
+
+░░▒▒▓▓████▓▓▒▒░░            REAL-TIME GRAPHICS
+      ░░▒▒▓▓████▓▓▒▒░░      AGENT ORCHESTRATION
+            ░░▒▒▓▓████▓▓▒▒░░  EXPERIMENTAL INTERFACES
+```
 
 `Real-time graphics` · `Agent orchestration` · `Experimental interfaces`
 
 <br>
 
-<p align="center">
-  <img src="./assets/typography/academic.png" width="100%" alt="Academic">
-</p>
+```text
+ACADEMIC / ASCENT
 
-### Academic
+                                            ⣿ FAST-NUCES
+                                      ┌─────┘
+                                ┌─────┘   BS COMPUTER SCIENCE
+                          ┌─────┘
+                    ┌─────┘       DEAN'S LIST ×2
+              ┌─────┘
+        ┌─────┘              1ST · BISE GUJRANWALA
+────────┘
+```
 
 **BS Computer Science — FAST-NUCES**  
 Dean’s List ×2 · 1st position — BISE Gujranwala ICS
 
 <br>
 
-<p align="center">
-  <img src="./assets/typography/interests.png" width="100%" alt="Interests">
-</p>
+```text
+INTERESTS / CONSTELLATION
 
-### Interests
+⠂        ⠄             ⠂                  ⠄
+                       REAL-TIME GRAPHICS
+                              ⠂
+                              │
+AI SYSTEMS  ⠂───────────────╳───────────────⠂  INTERACTION DESIGN
+                             ╱ ╲
+                            ⠂   ⠂
+              DEVELOPER TOOLING   SYSTEMS PROGRAMMING
+        ⠄             ⠂                 ⠄        ⠂
+```
 
-`Real-time graphics` · `AI systems` · `Developer tooling` · `Interaction design` · `Systems programming`
+`Real-time graphics` · `AI systems` · `Developer tooling` ·
+`Interaction design` · `Systems programming`
 
 <br>
 
-<p align="center">
-  <img src="./assets/motion/selected-work.gif" width="100%" alt="Selected Work">
-</p>
+```text
+░░░▒▒▒▓▓▓██████████████████████████▓▓▓▒▒▒░░░
+                 SELECTED / WORK
+░░░▒▒▒▓▓▓██████████████████████████▓▓▓▒▒▒░░░
+```
 
 <sub>01 / REAL-TIME GRAPHICS</sub>
 
@@ -76,28 +102,27 @@ Interactive handwritten-digit recognition with confidence feedback and optional 
 
 <br>
 
-<p align="center">
-  <img src="./assets/motion/ascii-interference.gif" width="100%" alt="Abstract ASCII interference study">
-</p>
-
 ### Other work
 
-**[Sixty-Four ↗](https://github.com/ahmad-obj/Chess)**  
-Customizable chess system with Stockfish, variants, clocks, persistence, and a Windows build.
+**[Sixty-Four ↗](https://github.com/ahmad-obj/Chess)** — customizable chess system with Stockfish, variants, clocks, persistence, and a Windows build.  
+**[WEBERAISE ↗](https://github.com/ahmad-obj/Weberaise)** — motion-led web work, custom interaction, and WebGL experiments.  
+**[Scout Email ↗](https://github.com/ahmad-obj/scout-email)** — structured prospect discovery and personalized outreach automation.
 
-**[WEBERAISE ↗](https://github.com/ahmad-obj/Weberaise)**  
-Motion-led web work, custom interaction, and WebGL experiments.
-
-**[Scout Email ↗](https://github.com/ahmad-obj/scout-email)**  
-Structured prospect discovery and personalized outreach automation.
+<br>
 
 ### Tools
 
-**Languages** — `Python` · `C++` · `TypeScript`  
-**Web / Graphics** — `React` · `Next.js` · `Three.js` · `WebGL`  
-**AI / Systems** — `PyTorch` · `OpenCV` · `LangGraph` · `SQLite` · `Linux`
+```text
+TOOLS / SYSTEM
 
-<br>
+PYTHON ───────── C++ ───────── TYPESCRIPT
+   │                           │
+   └──── REACT ── NEXT.JS ── THREE.JS ── WEBGL
+                │
+                └──── PYTORCH ── OPENCV
+                         │
+                         └──── LANGGRAPH ── SQLITE ── LINUX
+```
 
 <p align="center">
   <a href="https://ahmad-portfolio.manbtd1.workers.dev/">Portfolio</a>
